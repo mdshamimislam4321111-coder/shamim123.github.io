@@ -5,7 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Hello Labonno ❤️</title>
+  <title>For Love ❤️</title>
+
+  <!-- 🌹 Flower favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='85'%3E🌹%3C/text%3E%3C/svg%3E">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -820,6 +823,26 @@
       font-size: 25px;
     }
 
+    /* Flower logo beside the main heading */
+    .love-title .title-flower {
+      display: inline-block;
+      margin-right: 10px;
+      font-family: "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
+      font-size: 30px;
+      vertical-align: middle;
+      animation: flowerFloat 2.5s ease-in-out infinite;
+      filter: drop-shadow(0 0 8px rgba(255, 80, 120, 0.35));
+    }
+
+    @keyframes flowerFloat {
+      0%, 100% {
+        transform: translateY(0) rotate(-4deg);
+      }
+      50% {
+        transform: translateY(-4px) rotate(4deg);
+      }
+    }
+
 
     .note-btn {
 
@@ -1289,6 +1312,7 @@
 
       <h1 class="love-title">
 
+        <span class="title-flower" aria-hidden="true">🌹</span>
         for love
         <span>♥</span>
 
@@ -1423,16 +1447,15 @@
 
     const messages = [
 
-      "তোমাকে কীভাবে ভালোবাসি, সেটা হয়তো কোনো শব্দ দিয়ে পুরোপুরি বোঝানো সম্ভব নয়। তবুও প্রতিদিন মনে হয়, তোমার জন্য আরও কিছু বলা বাকি থেকে যায়।",
+      My Love, ❤️
 
-      "তুমি আমার জীবনে আসার পর থেকে ছোট ছোট মুহূর্তগুলোরও যেন আলাদা একটা অর্থ তৈরি হয়েছে। তোমার একটা হাসি আমার মন ভালো করে দিতে পারে, তোমার একটা কথা সারাদিন আমার মনে থেকে যায়। কখনো কখনো শুধু তোমার কথা ভাবতেই আমার মুখে অজান্তেই হাসি চলে আসে।",
+I don't know if words will ever be enough to explain how much you mean to me, but I still want to try.
 
-      "জানো, আমি তোমার কাছে কোনো বড় প্রতিশ্রুতি দিতে চাই না। শুধু এটুকু বলতে চাই—জীবনের সুন্দর দিনগুলোতে যেমন তোমার পাশে থাকতে চাই, তেমনি কঠিন দিনগুলোতেও তোমার হাতটা শক্ত করে ধরে রাখতে চাই।",
+Since you came into my life, even the smallest moments have started to feel special. Your smile can make my worst days better, and just thinking about you can bring a smile to my face.
 
-      "তোমার সঙ্গে কাটানো প্রতিটি মুহূর্ত আমার কাছে খুব আপন। তোমার অভিমান, তোমার হাসি, তোমার নীরবতা—সবকিছুই আমার কাছে আলাদা রকমের প্রিয়।",
+I don't promise that every day will be perfect. There may be difficult days, misunderstandings, and moments when things don't go as planned. But I promise that whenever life gets hard, I will always want to stand beside you, hold your hand, and remind you that you are never alone.
 
-      "এই ছোট্ট গোলাপটা হয়তো সত্যিকারের গোলাপ নয়, কিন্তু এর প্রতিটি পাপড়ির সঙ্গে আমার মনের একটা করে কথা জড়িয়ে আছে।"
-
+I love the way you make my heart feel. I lov
     ];
 
 
